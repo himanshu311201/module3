@@ -1,34 +1,98 @@
-body{
-	font-size:20px;
+#header-nav{
+background-color: #f6b319;
+color:red;
+height:100px;
 }
-.navbar
+.navbar-brand
 {
-	color:white;
-	background-color:Blue;
-	height: 100px;
+	padding-top:25px;
+	color: red;
 }
-h1{
-	color: white;
+.navbar-brand h1{
+	font-size: 1.8em;
+	color: Red;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
 }
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #fff;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}
+h2{
+	color: SlateBlue;
+	font-weight: 500px;
 
-#nav-list {
-  color: Black;
-  background-color:blue;
 }
-#hello1{
-	height:1000px;
-	background-color: Red;
+#submit1{
+	font-weight:900;
 }
-@media (max-width:767px)
+SELECT{
+	color: black;
+	font-weight:300;
+}
+#bodtext{
+	font-size:1.5em;
+	font-weight: 450;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-left: 200px;
+	padding-bottom: 100px;
+}
+table{
+	border-spacing: 20px;
+}
+tr{
+	border-spacing: px;
+}
+body{
+			text-align: center;
+			font-family: Helvetica;
+			background-color: #ecbcb4;
+		}
+form
 {
-	#hello1{
-	margin:10px 15px 10px 15px;
+	color: blue;
+	font-size: 20px;
+	font-weight: bold;
+	border-spacing: 20px;
+}
+table{
+	border-spacing: 20px;
+    padding-top:20px;
+
+}
+button{
+	color: White;
+	background-color: red;
+	border-radius: 12px;
+}
+@media (min-width: 499px) and (max-width:1199px)
+{
+	#image{
+		width:400px;
+		height:450px;
+	}
+	#bodtext{
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+}
+	input{
+	width:50px;
+	height:75px;
+}
+}
+@media (max-width:499px)
+{
+	#bodtext{
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+#header-nav{
+height:150px;
+}
+input{
+	width:50px;
+	height:50px;
 }
 }
